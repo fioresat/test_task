@@ -18,7 +18,7 @@ class RedditPostCard extends StatelessWidget {
       color: Colors.white70,
       child: ListTile(
         leading: redditPostIndexed.picture
-                .contains('https://b.thumbs.redditmedia.com/')
+                .contains('thumbs.redditmedia.com')
             ? Container(
                 width: widthScreen * 0.2,
                 height: widthScreen * 0.2,
